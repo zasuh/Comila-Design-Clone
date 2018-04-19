@@ -129,14 +129,31 @@ section,
     text-align: center;
 }
 
+.hero {
+    font-family: Roboto, sans-serif;
+    color: black;
+    line-height: 1px;
+    font-weight: normal;
+}
 
+h1.hero {
+    font-size: 54px;
+}
 
+h2.hero {
+    font-size: 20px;
+    margin: 0 0 60px 0;
+}
 
-
-
-
-
-
+h1.hero:after {
+    content: "";
+    width: 300px;
+    position: relative;
+    border-bottom: 1px solid #aaa;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+  }
 
 
 /* ==========================================================================
