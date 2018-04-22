@@ -125,7 +125,8 @@ section,
 }
 
 /* Header/Slider */
-.slider-content {
+.slider-content,
+.company-content {
     text-align: center;
 }
 
@@ -157,13 +158,13 @@ h1.hero:after {
 
 .call {
     display: block;
-    color: white;
+    color: black;
     margin: 0 0 20px 0;
 }
 
 .call span {
     display: inline;
-    border: 1px solid white;
+    border: 1px solid black;
     font-size: 13px;
     transition: background 0.15s linear;
 }
