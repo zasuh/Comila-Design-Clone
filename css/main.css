@@ -97,6 +97,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Header/Jumbotron styles */
+
 h1 {
     font-size: 4.125rem;
 }
@@ -109,11 +111,11 @@ h1 {
     align-items: center;
 }
 
-.call {
-    color: black;
-    border: 3px solid black;
+.header-buttons {
+    padding: 1rem 0 0 0;
 }
 
+/* Company styles */
 
 /* ==========================================================================
    Helper classes
