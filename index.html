@@ -15,6 +15,10 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
         <!-- Place favicon.ico in the root directory -->
 
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+        <!-- CSS -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
@@ -51,12 +55,12 @@
         <section class="company">
             <div class="container">
                 <div class="row">
-                    <div class="col-6 offset-0">
+                    <div class="col-md-6 offset-0">
                         <div>
                             <a href="https://placeholder.com"><img src="http://via.placeholder.com/500x250" class="img-fluid"></a>
                         </div>
                     </div>
-                    <div class="col-6 offset-0">
+                    <div class="col-md-6 offset-0">
                         <h2>Our company</h2>
                         <h4>Comila studio is based in Hong Kong</h4>
                         <p>
@@ -73,31 +77,31 @@
         <section class="services">
             <div class="container">
                 <div class="row">
-                        <div class="col-4 offset-0 col-xs-1">
-                            <h4>RESPONSIVE</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
-                            </p>
-                        </div>
-                        <div class="col-4 offset-0 col-xs-1">
-                            <h4>BOOTSTRAP</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
-                            </p>
-                        </div>
-                        <div class="col-4 offset-0 col-xs-1">
-                            <h4>SUPPORT</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
-                            </p>
-                        </div>
-        
-                        <div class="col-12 btn-talk">
-                            <button class="btn btn-secondary">Talk to us</button>
-                        </div>
+                    <div class="col-md-4 offset-0">
+                        <h4>RESPONSIVE</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                        </p>
+                    </div>
+                    <div class="col-md-4 offset-0">
+                        <h4>BOOTSTRAP</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                        </p>
+                    </div>
+                    <div class="col-md-4 offset-0">
+                        <h4>SUPPORT</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                        </p>
+                    </div>
+    
+                    <div class="col-12 btn-talk">
+                        <button class="btn btn-secondary">Talk to us</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -105,24 +109,45 @@
         <section class="get-in-touch">
             <div class="container">
                 <div class="row">
+
                     <div class="col-12 offset-0 col-md-8 offset-md-2">
-                        <div>
-                            <h2>GET IN TOUCH</h2>
-                        </div>
-                        <div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
-                            </p>
-                        </div>
+                        <h2 class="text-center">GET IN TOUCH</h2>
+                        <p class="text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                        </p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-md-6">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Name</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Your Name">
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-md-12">
+                        <form>
+                            <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Your Message"></textarea>
+                            </div>
+                        </form>
+                    </div>
         
-                        <div>
-                            <!-- Form with name, email and message inputs -->
-                        </div>
-        
-                        <div>
-                            <button><a href="#">Send Message</a></button>
-                        </div>
+                    <div class="col-12 btn-message">
+                        <button class="btn btn-secondary">Send Message</button>
                     </div>
                 </div>
             </div>
@@ -131,10 +156,9 @@
         <footer class="contact">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 offset-0 col-md-8 offset-md-2">
-                        <div>
+                        <div class="col-md-6">
                             <div>
-                                <h4>Comila</h4>
+                                <h3>Comila</h3>
                             </div>
                             <div>
                                 <p>
@@ -150,24 +174,23 @@
                             </div>
                         </div>
         
-                        <div>
+                        <div class="col-md-6">
                             <div>
-                                <h4>Our Studio</h4>
+                                <h3>Our Studio</h3>
                             </div>
                             <div>
-                                <p>Adress and street code</p>
-                                <p>Zip Code</p>
-                                <p>City and country</p>
+                                <p>120-240 aliquam augue libero,</p>
+                                <p>Convallis in vulputate 10220 </p>
+                                <p>San Francisco, CA, USA</p>
                             </div>
                             <div>
-                                <ul>
-                                    <li><a href="#"></a></li> <!-- Facebook -->
-                                    <li><a href="#"></a></li> <!-- Twitter -->
-                                    <li><a href="#"></a></li> <!-- Dribbble -->
+                                <ul class="social-list">
+                                    <li><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li> <!-- Facebook -->
+                                    <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li> <!-- Twitter -->
+                                    <li><a href="#"><i class="fab fa-dribbble fa-2x"></i></a></li> <!-- Dribbble -->
                                 </ul>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </footer>

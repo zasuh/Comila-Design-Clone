@@ -125,16 +125,32 @@ h1 {
     min-height: 50vh;
 }
 
-.btn-talk {
+.btn-talk,
+.btn-message {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    padding: 2.5rem 0 0 0;
+    padding: 3.5rem 0 0 0;
 }
 
-/* Company styles */
+.get-in-touch {
+    min-height: 50vh;
+}
 
+.contact {
+    min-height: 50vh;
+    padding: 6.5rem 0 0 0;
+}
+
+.social-list {
+    text-decoration: none;
+}
+
+.social-list li{
+    display: inline-block;
+    padding: 1.5rem 2.5rem 0 0;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
