@@ -115,6 +115,24 @@ h1 {
     padding: 1rem 0 0 0;
 }
 
+.company {
+    min-height: 50vh;
+
+    display: flex;
+}
+
+.services {
+    min-height: 50vh;
+}
+
+.btn-talk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2.5rem 0 0 0;
+}
+
 /* Company styles */
 
 /* ==========================================================================
