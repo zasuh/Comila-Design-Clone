@@ -109,20 +109,40 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background: #0288D1;
+    color: white;
 }
 
 .header-buttons {
     padding: 1rem 0 0 0;
 }
 
+.btn {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+
+/* Company styles */
+
 .company {
     min-height: 50vh;
-
+    
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .services {
     min-height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FF9800;
+    color: white;
 }
 
 .btn-talk,
@@ -131,16 +151,26 @@ h1 {
     justify-content: center;
     align-items: center;
 
-    padding: 3.5rem 0 0 0;
+    padding: 2rem 0 0 0;
 }
 
 .get-in-touch {
-    min-height: 50vh;
+    min-height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact {
-    min-height: 50vh;
-    padding: 6.5rem 0 0 0;
+    min-height: 30vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #212121;
+    color: white;
 }
 
 .social-list {
@@ -151,6 +181,71 @@ h1 {
     display: inline-block;
     padding: 1.5rem 2.5rem 0 0;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    
+    .company {
+        min-height: 60vh;
+    }
+
+    .company-description {
+        padding-top: 2.5rem;
+    }
+    
+    .services {
+        min-height: 60vh;
+    }
+
+    .offers {
+        padding-top: 2.5rem;
+    }
+
+    .get-in-touch {
+        min-height: 100vh;
+    }
+
+    .contact {
+        min-height: 50vh;
+    }
+
+    #our-studio {
+        padding: 1rem 0 0 0;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+
+    .company {
+        min-height: 60vh;
+    }
+
+    .company-description {
+        padding-top: 2.5rem;
+    }
+
+    .services {
+        min-height: 60vh;
+    }
+
+    .offers {
+        padding-top: 2.5rem;
+    }
+
+    .get-in-touch {
+        min-height: 90vh;
+    }
+
+    .contact {
+        min-height: 50vh;
+    }
+
+    #our-studio {
+        padding: 1rem 0 0 0;
+    }
+ }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
